@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/sunday"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/sunday"
+        android:title="test"/>
+
+    <item
+        android:id="@+id/saturday"
+        android:icon="@drawable/saturday"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="test2"/>
+
+    <item
+        android:id="@+id/infoNotice"
+        android:icon="@drawable/information"
+        app:showAsAction="always"
+        android:orderInCategory="300"
+        android:title="test3"/>
+
+</menu>
